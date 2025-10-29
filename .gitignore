@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Byte-compiled / cache
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Environments
+.env
+.env.local
+.env.*
+!.env.example
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+crash.log
+
+# Helm
+charts/*.tgz
+
+# OS junk
+.DS_Store
+Thumbs.db
